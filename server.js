@@ -80,6 +80,27 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
+app.get('/test-db',function(req,res){
+    //make a select request.
+    //return a response with the result.
+});
+
+var counter =0;
+app.get('/counter',function(req,res){
+    counter=counter + 1;
+    res.send(counter.toString());
+});
+
+var names = [];
+app.get('/submit-name',function(req,res){//submit-name?name=xxxx
+//Get the name from the request.
+var name=req.query.name;
+
+names.push(name);
+//JSON: JAVASCRIPT OBJECT NOTATION
+res.send(JSON.stringify(names));
+});
+
 app.get('/:articleName', function (req, res){
     //articleName==article-one;
     //articles[articleName]=={} content object for article-one;
