@@ -24,14 +24,7 @@ var articles={
                 This is the content for my Article one. This is the content for my Article one. This is the content for my Article one.
                 This is the content for my Article one. This is the content for my Article one. This is the content for my Article one.
             </p>
-            <p>
-                This is the content for my Article one. This is the content for my Article one. This is the content for my Article one.
-                This is the content for my Article one. This is the content for my Article one. This is the content for my Article one.
-            </p>
-            <p>
-                This is the content for my Article one. This is the content for my Article one. This is the content for my Article one.
-                This is the content for my Article one. This is the content for my Article one. This is the content for my Article one.
-            </p>`
+           `
 },
 'article-two':{
     title: 'Article Two I Ashish Gupta',
