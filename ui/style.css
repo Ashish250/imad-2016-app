@@ -27,3 +27,10 @@ body {
             padding-left: 20px;
             padding-right: 20px;
             }
+.ABC {
+    color: #34728e;
+    font-size: 25px;
+    font-family: serif;
+    font-style: oblique;
+    text-align: justify;
+}
