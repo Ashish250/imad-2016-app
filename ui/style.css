@@ -31,9 +31,17 @@ body {
     text-align: justify;
 }
 
+#myname {
+    font-weight: bold;
+    color: #385b5d;
+    font-variant: small-caps;
+    font-size: 35px;
+}
+
 .div {
     display: block;
 }
+
 .img {display: inline-block;
     border: 1px solid #ddd;
     border-radius: 30%;
