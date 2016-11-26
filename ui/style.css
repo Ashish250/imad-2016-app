@@ -31,6 +31,9 @@ body {
     text-align: justify;
 }
 
+.div {
+    display: block;
+}
 .img {display: inline-block;
     border: 1px solid #ddd;
     border-radius: 30%;
