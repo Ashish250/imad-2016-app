@@ -23,12 +23,32 @@ body {
             padding-left: 20px;
             padding-right: 20px;
             }
+
+.button {
+    background-color: white;
+    border: none;
+    color: #008CBA;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
 .ABC {
     color: #34728e;
     font-size: 25px;
     font-family: serif;
     font-style: oblique;
     text-align: justify;
+}
+
+#name {
+    color: white;
+    font-size: 25px;
+    font-family: Times New Roman;
+    font-weight: bold;
+    padding-left: 25px;
+    padding-top: 100px;
 }
 
 #myname {
